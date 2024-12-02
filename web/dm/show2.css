@@ -1,0 +1,89 @@
+
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+
+    background-image: url('t/3.jpg'); /* 替换为你的图片路径 */
+    background-repeat: no-repeat; /* 图片不重复 */
+    background-position: center center; /* 图片居中显示 */
+    background-size: cover; /* 图片覆盖整个body */
+}
+
+/* 表格样式 */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left; /* 标题行为居中，数据行为左对齐 */
+    background-color: #ffffff; /* 设置为白色背景 */
+}
+
+th {
+    background-color: #4CAF50;
+    color: white;
+}
+
+/* 标题样式 */
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* 链接样式 */
+a {
+    text-decoration: none;
+    color: #07f8e5;
+}
+
+/* 水平线样式 */
+hr {
+    border: none;
+    height: 1px;
+    color: #333; /* old IE */
+    background-color: #333; /* Modern Browsers */
+}
+
+/* 居中对齐 */
+.center {
+    text-align: center;
+}
+
+/* 表单输入只读样式 */
+input[readonly] {
+    background-color: #eee; /* 浅灰色背景 */
+}
+ a:link, a:visited {
+     color: #007BFF; /* 蓝色，你可以根据需要修改 */
+     text-decoration: none; /* 移除下划线 */
+ }
+
+ /* 链接被点击时的颜色（通常很短暂，可省略）*/
+ a:active {
+     color: #FF5733; /* 橙色，你也可以自定义 */
+ }
+
+ /* 鼠标悬停在链接上时的颜色 */
+ a:hover {
+     color: #FF0000; /* 红色，你也可以自定义 */
+     text-decoration: underline; /* 添加下划线效果 */
+ }
+.button-side-image {
+    /* 设置图片的宽度和高度，可能需要调整以匹配按钮 */
+    width: 90px; /* 根据需要调整 */
+    height: 60px; /* 根据需要调整，可能需要保持与按钮的高度一致 */
+    /* 垂直对齐，与按钮的基线对齐 */
+    vertical-align: middle;
+    /* 添加一些间距，让图片和按钮之间有空隙 */
+    margin-left: 10px;
+    /* ... 其他样式 ... */
+}

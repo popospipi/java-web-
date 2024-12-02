@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: #f2f2f2;
+
+    /* 添加背景图 */
+    background-image: url('t/3.jpg'); /* 替换为你的图片路径 */
+    background-repeat: no-repeat; /* 图片不重复 */
+    background-position: center center; /* 图片居中显示 */
+    background-size: cover; /* 图片覆盖整个body */
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"], input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+input[type="submit"] {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+input[type="submit"] {
+    /* 假设按钮的样式如下 */
+    padding: 10px 20px;
+    font-size: 16px;
+    /* ... 其他样式 ... */
+}
+
+/* 设置图片样式以匹配按钮 */
+.button-side-image {
+    /* 设置图片的宽度和高度，可能需要调整以匹配按钮 */
+    width: 120px; /* 根据需要调整 */
+    height: 80px; /* 根据需要调整，可能需要保持与按钮的高度一致 */
+    /* 垂直对齐，与按钮的基线对齐 */
+    vertical-align: middle;
+    /* 添加一些间距，让图片和按钮之间有空隙 */
+    margin-left: 10px;
+    /* ... 其他样式 ... */
+}

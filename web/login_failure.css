@@ -1,0 +1,15 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    top: 0;
+}
+
+body {
+    height: 100vh;
+    background: url(Picture/lei.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

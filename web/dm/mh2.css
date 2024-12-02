@@ -1,0 +1,38 @@
+
+     /* CSS样式开始 */
+     body {
+         /* 设置GIF图作为背景 */
+         background-image: url('t/1.gif');
+         /* 根据需要调整其他背景属性 */
+         background-repeat: no-repeat;
+         background-size: cover; /* 或使用其他值，如'contain' */
+         background-position: center center; /* 可选，设置背景图的位置 */
+         /* 注意：并非所有浏览器都会显示GIF动画作为背景 */
+     }
+     .year-container {
+    display: flex;
+    justify-content: space-around; /* 让年份容器中的表格均匀分布 */
+    margin-bottom: 20px; /* 每个年份容器之间的间距 */
+}
+
+.year-table {
+    border-collapse: collapse;
+    width: 30%; /* 假设我们想要三个表格并排显示，这里设置宽度为30% */
+}
+
+.index_year {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-align: center;
+}
+
+.index_season a {
+    display: block; /* 让链接占据整个表格单元格 */
+    text-align: center;
+}
+
+.index_season img {
+    max-width: 100%; /* 图片最大宽度为单元格宽度 */
+    height: auto; /* 图片高度自动以保持比例 */
+}
